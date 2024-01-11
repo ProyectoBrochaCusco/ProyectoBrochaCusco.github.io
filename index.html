@@ -20,6 +20,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dosis:wght@300&family=Jura:wght@300;400&family=Playpen+Sans:wght@100&family=Rajdhani&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
 </head>
 
 <!--contenido-->
@@ -40,8 +46,6 @@
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg></button>
 
-
-
             <nav class="nav flex-container" id="nav">
                 <ul class="nav-list" id="listaDeNombres">
 
@@ -54,19 +58,29 @@
 
 
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;">Inicio</span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;"><a href="#fotoPrin"
+                                style="text-decoration: none; color: black;">Inicio</a></span>
                     </li>
                     <li>
                         <span class="material-symbols-outlined" style="text-decoration: none;">Habitaciones</span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;">Experiencias</span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
+                                href="#tituloUbicacion"
+                                style="text-decoration: none; color: black;">Ubicacion</a></span>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
+                                href="#tituloExperiencias"
+                                style="text-decoration: none; color: black;">Experiencias</a></span>
                     </li>
                     <li>
                         <span class="material-symbols-outlined" style="text-decoration: none;">Contacto</span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;">Reservar</span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
+                                href="https://api.whatsapp.com/send?phone=952840633"
+                                style="text-decoration: none; color: black;">Reservar</a></span>
                     </li>
                 </ul>
             </nav>
@@ -78,11 +92,11 @@
         <div id="fotoPrin">
 
             <h1>Tu casa fuera de casa</h1>
-            <p>en el corazon de Cusco</p>
-            <button>Reservar ya</button>
+            <p style="font-family: 'Abril Fatface', serif; color: white;">en el corazon de Cusco</p>
+            <button style="font-family: 'Abril Fatface', serif; color:#025E73;">Reservar ya</button>
 
             <ul class="flex-container nav-list" id="siguenos">
-                <p>Siguenos en</p>
+                <p style="font-family: 'Abril Fatface', serif; color: white;" >Siguenos en</p>
                 <li><img src="./imagenes/instagram.png" alt="instagram" style="height: 2rem; width: 2rem;"></li>
                 <li><img src="./imagenes/facebook.png" alt="facebook" style="height: 2rem; width: 2rem;"></li>
             </ul>
@@ -148,7 +162,7 @@
                         <li>
                             <img src="./fotos/matrimonial-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
                         </li>
-                        
+
                     </ul>
                 </div>
 
@@ -161,7 +175,7 @@
             </div>
 
             <div id="habitacionPresentacion">
-                <h3>Habitacion matrimonial</h3>
+                <h3>Habitacion doble</h3>
 
                 <div id="target" class="slider">
 
@@ -178,18 +192,18 @@
                         <li>
                             <img src="./fotos/doble-B1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
                         </li>
-                        
+
                     </ul>
                 </div>
 
-                <p id="descripcion"> Habitacion perfecta para parejas, privada y muy acogedora</p>
+                <p id="descripcion"> Habitacion tranquila, con baño privado y balcon panoramico</p>
                 <!--iconos de servicios-->
                 <div id="servicios">
 
                 </div>
                 <button class="botonDeHabitacion">Ir a ver</button>
             </div>
-           
+
         </div>
 
         <div id="carruselDeImagenes" class="flex-container">
@@ -212,11 +226,11 @@
                         <li>
                             <img src="./fotos/rosa-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
                         </li>
-                        
+
                     </ul>
                 </div>
 
-                <p id="descripcion"> Habitacion con mirador con vista a la ciudad, baño privado</p>
+                <p id="descripcion"> Habitacion con mirador con vista a la ciudad</p>
                 <!--iconos de servicios-->
                 <div id="servicios">
 
@@ -225,7 +239,7 @@
             </div>
 
             <div id="habitacionPresentacion">
-                <h3>Habitacion matrimonial</h3>
+                <h3>Habitacion doble</h3>
 
                 <div id="target" class="slider">
 
@@ -242,18 +256,18 @@
                         <li>
                             <img src="./fotos/camarote-B1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
                         </li>
-                        
+
                     </ul>
                 </div>
 
-                <p id="descripcion"> Habitacion perfecta para parejas, privada y muy acogedora</p>
+                <p id="descripcion"> Habitacion camarote, con baño privado, super acogedor</p>
                 <!--iconos de servicios-->
                 <div id="servicios">
 
                 </div>
                 <button class="botonDeHabitacion">Ir a ver</button>
             </div>
-           
+
         </div>
 
 
@@ -265,40 +279,103 @@
 
 
     <!--Como llegar-->
-    <h1>Ubicanos en:</h1>
-    <p>descripcion</p>
+
+    <div id="ubicacion">
+        <div class="flex-container" id="tituloUbicacion">
+            <h3>Ubicanos en</h3>
+        </div>
+
+        <div class="flex-container" id="ubicador">
+
+            <div class="flex-container" id="descricionUbicacion">
+                <h3 style="font-weight: 600;font-family: 'Abril Fatface', serif; color:#025E73;">Calle matara 250</h3>
+                <p>A 3 cuadras de la plaza mayor de Cusco, con una vista panoramica de la ciudad</p>
+                <img src="./fotos/ingreso-1.jpg" alt="ingreso" id="imagenDeIngreso" style="border-radius: 19px;">
+            </div>
+
+            <div id="MapaDeUbicacion">
+
+                <h3 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Google Maps</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.45249547062687!2d-71.97966866879953!3d-13.520862220315417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd675b19214d5%3A0xd9d6e3d5bdff1be2!2sHospedaje%20Familiar%20Gloria!5e0!3m2!1ses!2spe!4v1704889070813!5m2!1ses!2spe"
+                    width="490rem" height="400rem" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
 
     <!--Experiencias-->
-    <h1>Experiencias</h1>
-    <div>
-        <p>persona 1</p>
+
+    <div class="flex-container" id="experienciasCajaGrande">
+
+        <div class="flex-container" id="tituloExperiencias">
+            <h3>Experiencias</h3>
+        </div>
+
+        <div class="flex-container" id="contenedorPersonas">
+
+            <div class="flex-container" id="personaTargetaExperiencia">
+                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Benjamin</h4>
+                <p>Septiembre 2021</p>
+                <img src="./fotos/persona 1.jpg" alt="foto"
+                    style="width: 6.5rem; height: 6.5rem; padding: 0 0 0.5rem 0">
+                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
+                <p>The view is great and the management was very easy to contact while being eager to help out. The
+                    location is perfect for being close to plaza de Armas without it being quite so busy.</p>
+            </div>
+            <div class="flex-container" id="personaTargetaExperiencia">
+                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Jc</h4>
+                <p>Febrero 2020</p>
+                <img src="./fotos/persona 2.jpg" alt="foto" style="width: 4rem; height: 6.5rem; padding: 0 0 0.5rem 0">
+                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
+                <p>Chambre avec salle de bain et un balcon terrasse avec vue sur la ville Lit confortable Bien situé au
+                    centre du quartier historique</p>
+            </div>
+            <div class="flex-container ultimaPersona" id="personaTargetaExperiencia">
+                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Kevin</h4>
+                <p>Agosto 2017</p>
+                <img src="./fotos/persona 3.jpg" alt="foto"
+                    style="width: 6.5rem; height: 6.5rem; padding: 0 0 0.5rem 0">
+                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
+                <p>Very nice and helpful host (Gloria). The room was clean and the bathroom was big and has warm water.
+                    Wifi was fast. Nice view of the city from the balcony. Excellent city location, but can be a little
+                    hard to find for the taxi driver (no sign from the street). Close to the most important things in
+                    the city. A supermarket just across the road.</p>
+            </div>
+        </div>
+
+
     </div>
-    <div>
-        <p>persona 2</p>
-    </div>
-    <div>
-        <p>persona 3</p>
-    </div>
+
 
     <!--pie de pagina-->
     <footer>
+        <div class="flex-container" id="pieDPagina">
+            <img src="./imagenes/logo.png" alt="logo" id="logo">
+
+            <div class="flex-container" id="pieDPaginaContactos">
+
+
+                <p style="font-family: 'Abril Fatface', serif;">Contactos</p>
+
+                <div class="flex-container" id="iconos">
+                    <img src="./imagenes/whatsapp.png" alt="wahsaap" id="logoWhasapp" style="height: 2rem;
+                    width: 2rem;">
+                    <img src="./imagenes/gmail.png" alt="wahsaap" id="logoGmail" style="height: 2rem;
+                    width: 2rem;">
+                    <img src="./imagenes/facebook.png" alt="wahsaap" id="logoLikedIn" style="height: 2rem;
+                    width: 2rem;">
+                </div>
+
+            </div>
+            <p style="font-family: 'Abril Fatface', serif;">&copy; Copyright Hospedaje Familiar Gloria 20204</p>
+        </div>
 
     </footer>
 
 </body>
-<div class="flex-container" id="pieDPagina">
-    <div class="flex-container" id="pieDPaginaContactos">
-        <p>Contactos</p>
-        <img src="./imagenes/whatsapp.png" alt="wahsaap" id="logoWhasapp" style="height: 2rem;
-        width: 2rem;">
-        <img src="./imagenes/gmail.png" alt="wahsaap" id="logoGmail" style="height: 2rem;
-        width: 2rem;">
-        <img src="./imagenes/linkedin.png" alt="wahsaap" id="logoLikedIn" style="height: 2rem;
-        width: 2rem;">
 
-
-    </div>
-    <p>&copy; Copyright Sebastian Godoy 20203</p>
-</div>
 
 </html>
