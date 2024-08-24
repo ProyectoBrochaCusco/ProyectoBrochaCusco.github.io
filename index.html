@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gloria</title>
+    <title>ONG Brocha</title>
 
     <script src="./jquery-3.7.1.min.js"></script>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./bootstrap.bundle.min.js">
     <link rel="stylesheet" href="./bootstrap.min.css">
 
@@ -25,352 +25,563 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Pacifico&display=swap"
+        rel="stylesheet">
 
 </head>
+
 
 <!--contenido-->
 
 <body>
 
-    <!--hamburguesa-->
+    <!--Encabezado - hamburguesa-->
     <header>
 
         <div class="flex-container" id="encabezadoLinks">
 
-            <img src="./imagenes/logo.png" alt="logo" id="logo">
+            <img src="./imagenes/Logo 2.png" alt="logo" id="logo">
 
             <!--boton abrir-->
-            <button class="abrirMenu" id="abrir"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <button class="abrirMenu" id="abrir">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                </svg></button>
+                </svg>
+            </button>
 
             <nav class="nav flex-container" id="nav">
                 <ul class="nav-list" id="listaDeNombres">
 
                     <!--boton cerrar-->
-                    <button id="botonParaCerrar"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-                            fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <button id="botonParaCerrar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-x-lg" viewBox="0 0 16 16">
                             <path
                                 d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
-                        </svg></button>
+                        </svg>
+                    </button>
 
-
+                    <!--lista de partes de la pagina-->
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;"><a href="#fotoPrin"
-                                style="text-decoration: none; color: black;">Inicio</a></span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#fotoPrin" style="text-decoration: none;" id="LetrasDeBuqueda">Inicio</a>
+                        </span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;">Habitaciones</span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#quienesSomos" style="text-decoration: none;" id="LetrasDeBuqueda">Quienes
+                                somos</a>
+                        </span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
-                                href="#tituloUbicacion"
-                                style="text-decoration: none; color: black;">Ubicacion</a></span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#experienciasCajaGrande" style="text-decoration: none;"
+                                id="LetrasDeBuqueda">Mision</a>
+                        </span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
-                                href="#tituloExperiencias"
-                                style="text-decoration: none; color: black;">Experiencias</a></span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#habitaciones" style="text-decoration: none;" id="LetrasDeBuqueda">Proyecto
+                                BROCHA</a>
+                        </span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;">Contacto</span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#habitaciones2" style="text-decoration: none;" id="LetrasDeBuqueda">Proyectos
+                                previos</a>
+                        </span>
                     </li>
                     <li>
-                        <span class="material-symbols-outlined" style="text-decoration: none;"><a
-                                href="https://api.whatsapp.com/send?phone=952840633"
-                                style="text-decoration: none; color: black;">Reservar</a></span>
+                        <span class="material-symbols-outlined" style="text-decoration: none;">
+                            <a href="#pieDPagina" style="text-decoration: none;" id="LetrasDeBuqueda">Contacto</a>
+                        </span>
                     </li>
                 </ul>
             </nav>
 
         </div>
-
-
-        <!--encabezado- imagen principal-->
-        <div id="fotoPrin">
-
-            <h1>Tu casa fuera de casa</h1>
-            <p style="font-family: 'Abril Fatface', serif; color: white;">en el corazon de Cusco</p>
-            <button style="font-family: 'Abril Fatface', serif; color:#025E73;">Reservar ya</button>
-
-            <ul class="flex-container nav-list" id="siguenos">
-                <p style="font-family: 'Abril Fatface', serif; color: white;" >Siguenos en</p>
-                <li><img src="./imagenes/instagram.png" alt="instagram" style="height: 2rem; width: 2rem;"></li>
-                <li><img src="./imagenes/facebook.png" alt="facebook" style="height: 2rem; width: 2rem;"></li>
-            </ul>
-
-        </div>
     </header>
 
 
+    <!--encabezado- imagen principal -- logo de brocha-->
+    <div id="fotoPrin">
 
-
-
-    <!--Habitaciones-->
-
-    <div id="habitaciones" class="flex-container">
-
-        <h1 id="tituloHabitaciones">Habitaciones</h1>
-        <div id="carruselDeImagenes" class="flex-container">
-
-            <div id="habitacionPresentacion">
-                <h3>Habitacion triple</h3>
-
-                <div id="target" class="slider">
-
-                    <ul id="listaDeHabitaciones" class="flex-container">
-                        <li>
-                            <img src="./fotos/triple-blanca-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/triple-blanca-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/triple-blanca-3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/triple-blanca-B2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                    </ul>
-                </div>
-
-                <p id="descripcion"> Habitacion con mirador con vista a la ciudad, baño privado</p>
-                <!--iconos de servicios-->
-                <div id="servicios">
-
-                </div>
-                <button class="botonDeHabitacion">Ir a ver</button>
-            </div>
-
-            <div id="habitacionPresentacion">
-                <h3>Habitacion matrimonial</h3>
-
-                <div id="target" class="slider">
-
-                    <ul id="listaDeHabitaciones" class="flex-container">
-                        <li>
-                            <img src="./fotos/matrimonial-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/matrimonial-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/matrimonial-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/matrimonial-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-
-                    </ul>
-                </div>
-
-                <p id="descripcion"> Habitacion perfecta para parejas, privada y muy acogedora</p>
-                <!--iconos de servicios-->
-                <div id="servicios">
-
-                </div>
-                <button class="botonDeHabitacion">Ir a ver</button>
-            </div>
-
-            <div id="habitacionPresentacion">
-                <h3>Habitacion doble</h3>
-
-                <div id="target" class="slider">
-
-                    <ul id="listaDeHabitaciones" class="flex-container">
-                        <li>
-                            <img src="./fotos/doble-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/doble-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/doble-3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/doble-B1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-
-                    </ul>
-                </div>
-
-                <p id="descripcion"> Habitacion tranquila, con baño privado y balcon panoramico</p>
-                <!--iconos de servicios-->
-                <div id="servicios">
-
-                </div>
-                <button class="botonDeHabitacion">Ir a ver</button>
-            </div>
-
-        </div>
-
-        <div id="carruselDeImagenes" class="flex-container">
-
-            <div id="habitacionPresentacion">
-                <h3>Habitacion triple</h3>
-
-                <div id="target" class="slider">
-
-                    <ul id="listaDeHabitaciones" class="flex-container">
-                        <li>
-                            <img src="./fotos/rosa-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/rosa-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/rosa-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/rosa-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-
-                    </ul>
-                </div>
-
-                <p id="descripcion"> Habitacion con mirador con vista a la ciudad</p>
-                <!--iconos de servicios-->
-                <div id="servicios">
-
-                </div>
-                <button class="botonDeHabitacion">Ir a ver</button>
-            </div>
-
-            <div id="habitacionPresentacion">
-                <h3>Habitacion doble</h3>
-
-                <div id="target" class="slider">
-
-                    <ul id="listaDeHabitaciones" class="flex-container">
-                        <li>
-                            <img src="./fotos/camarote-1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/camarote-2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/camarote-3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-                        <li>
-                            <img src="./fotos/camarote-B1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
-                        </li>
-
-                    </ul>
-                </div>
-
-                <p id="descripcion"> Habitacion camarote, con baño privado, super acogedor</p>
-                <!--iconos de servicios-->
-                <div id="servicios">
-
-                </div>
-                <button class="botonDeHabitacion">Ir a ver</button>
-            </div>
-
-        </div>
-
-
-
-
+        <h1>Proyecto Brocha</h1>
+        <p style="color: white;">Proyecto social para niños Oncologicos</p>
+        <button style="text-decoration: none;"><a href="https://api.whatsapp.com/send?phone=946753151"
+                style="text-decoration: none; color: rgb(255, 255, 255);"> Contacto </a></button>
 
     </div>
 
+    <!--Quienes somos-->
+    <div id="quienesSomos">
 
-
-    <!--Como llegar-->
-
-    <div id="ubicacion">
+        <!--imagen de titulo-->
         <div class="flex-container" id="tituloUbicacion">
-            <h3>Ubicanos en</h3>
+            <img src="./imagenes/quienes somos.jpg">
         </div>
 
         <div class="flex-container" id="ubicador">
 
             <div class="flex-container" id="descricionUbicacion">
-                <h3 style="font-weight: 600;font-family: 'Abril Fatface', serif; color:#025E73;">Calle matara 250</h3>
-                <p>A 3 cuadras de la plaza mayor de Cusco, con una vista panoramica de la ciudad</p>
-                <img src="./fotos/ingreso-1.jpg" alt="ingreso" id="imagenDeIngreso" style="border-radius: 19px;">
+                <img src="./fotos/paredG.jpg" alt="ingreso" id="imagenDeIngreso">
             </div>
 
-            <div id="MapaDeUbicacion">
+            <div class="flex-container" id="descricionUbicacion">
 
-                <h3 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Google Maps</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.45249547062687!2d-71.97966866879953!3d-13.520862220315417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd675b19214d5%3A0xd9d6e3d5bdff1be2!2sHospedaje%20Familiar%20Gloria!5e0!3m2!1ses!2spe!4v1704889070813!5m2!1ses!2spe"
-                    width="490rem" height="400rem" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3 style="margin: 0 0 0.5rem 0; font-family: " Pacifico"">BROCHA</h3>
+                <p style="width: 30rem;" id="descipciones">El proyecto BORCHA fue creado por el arquitecto Sebastian
+                    Godoy, reune a
+                    profesionales de diferentes especialidades para apoyar
+                    a niños Oncologicos completamente GRATIS</p>
             </div>
+        </div>
+    </div>
+
+    <!--Mision-->
+    <div class="flex-container" id="experienciasCajaGrande"
+        style="display: flex; flex-direction: column; align-items: center;">
+
+        <div class="flex-container" id="tituloExperiencias"
+            style="display: flex; justify-content: center; width: 100%;">
+            <img src="./imagenes/meta.png" alt="foto" id="FotoPersonaExperiencia" style="margin: 0 0 2rem 0;">
+        </div>
+
+        <div class="flex-container" id="contenedorPersonas"
+            style="display: flex; align-items: center; justify-content: center; width: 100%;">
+
+            <!--imagen de nuestra meta-->
+            <div class="flex-container">
+                <img src="./fotos/paredD.jpg" id="FotoPersonaExperiencia" style="border-radius: 3%;">
+            </div>
+
+            <div class="flex-container" id="personaTargetaExperiencia"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="./imagenes/BrochaLogoMasLetras.png">
+                <p id="descipciones" style="text-align: center;">El proyecto brocha tiene como mision decorar
+                    compleamente GRATIS las habitaciones de 3 niños entre los 6-10 años en la region Cusco, que esten en
+                    condicion
+                    Oncologica con un estilo completamente personalizado</p>
+            </div>
+
         </div>
     </div>
 
 
 
-    <!--Experiencias-->
 
-    <div class="flex-container" id="experienciasCajaGrande">
+
+
+
+    <!--Proyecto Ruber Hose 1-->
+    <div id="habitaciones" class="flex-container">
+
+        <!--descripcion del proyecto brocha-->
+        <div class="flex-container" id="tituloExperiencias">
+            <img src="./imagenes/ProyectoBrocha.png">
+            <p id="descipciones" style="text-align: center;">En este tipo de decoracion se
+                busca
+                concectar con el niño creando un ambiente inmersivo de acorde al gusto de este,
+                adaptandonos a los objetos que se deseen mantener y las sensaciones
+                que se transmitiran</p>
+        </div>
+
+
+        <!--TARGETA - proyecto Ruber Hose-->
+        <div id="carruselDeImagenes2" class="flex-container">
+
+            <div id="habitacionPresentacion2">
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container"
+                        style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/antes6.jpeg" alt="imagenDeHabitacion"
+                                style="display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/antes2.jpeg" alt="imagenDeHabitacion"
+                                style="display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/antes3.jpeg" alt="imagenDeHabitacion"
+                                style="display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/antes4.jpeg" alt="imagenDeHabitacion"
+                                style="display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                    </ul>
+                </div>
+
+                <p id="descripcion"></p>
+            </div>
+
+
+            <div id="DescripcionDeAntes">
+                <img src="./imagenes/Antes.png" style="height: 10rem; margin: 1rem 0 1rem 0;">
+
+                <p id="descipciones">
+                    El cliente deseaba una experiencia inmersiva con ciertos personajes de la saga CUP HEAD, ademas de
+                    mantener el area de circulacion original asi como la pizarra debia ser incluida en el resultado
+                    final
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--Proyecto Ruber Hose Diseño-->
+    <div id="habitaciones" class="flex-container">
 
         <div class="flex-container" id="tituloExperiencias">
-            <h3>Experiencias</h3>
+            <img src="./imagenes/ProcesoDeDiseño.png" style="height: 10rem;">
         </div>
 
-        <div class="flex-container" id="contenedorPersonas">
+        <p id="descipciones" style="text-align: center;">Despues de una serie de diseños realizados
+            por el equipo y varias propuestas, se definio el diseño final</p>
 
-            <div class="flex-container" id="personaTargetaExperiencia">
-                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Benjamin</h4>
-                <p>Septiembre 2021</p>
-                <img src="./fotos/persona 1.jpg" alt="foto"
-                    style="width: 6.5rem; height: 6.5rem; padding: 0 0 0.5rem 0">
-                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
-                <p>The view is great and the management was very easy to contact while being eager to help out. The
-                    location is perfect for being close to plaza de Armas without it being quite so busy.</p>
+        <!--TARGETA - proyecto Ruber Hose-->
+        <div id="carruselDeImagenes2" class="flex-container">
+
+            <div id="habitacionPresentacion2">
+
+                <div id="target" class="slider">
+                    <ul id="listaDeHabitaciones" class="flex-container"
+                        style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/propuestaAntes1.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/propuestaAntes2.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/propuestaAntes4.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/propuestaAntes3.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                    </ul>
+
+                </div>
+
+                <p id="descripcion"></p>
             </div>
-            <div class="flex-container" id="personaTargetaExperiencia">
-                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Jc</h4>
-                <p>Febrero 2020</p>
-                <img src="./fotos/persona 2.jpg" alt="foto" style="width: 4rem; height: 6.5rem; padding: 0 0 0.5rem 0">
-                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
-                <p>Chambre avec salle de bain et un balcon terrasse avec vue sur la ville Lit confortable Bien situé au
-                    centre du quartier historique</p>
+
+            <div id="DescripcionDeAntes">
+                <img src="./imagenes/EtapaDeDiseño.png" style="height: 10rem;">
+
+                <p id="descipciones">
+                    Se mostraron varias tematicas, y con distintos enfoques las cuales se presentaron al
+                    usuario, el cual eligio la tematica maritima, para lo cual se usaron proyecciones en el mismo lugar
+                    asi
+                    como renders e ilustraciones
+                </p>
             </div>
-            <div class="flex-container ultimaPersona" id="personaTargetaExperiencia">
-                <h4 style="font-weight: 500; font-family: 'Abril Fatface', serif; color:#F2A71B;">Kevin</h4>
-                <p>Agosto 2017</p>
-                <img src="./fotos/persona 3.jpg" alt="foto"
-                    style="width: 6.5rem; height: 6.5rem; padding: 0 0 0.5rem 0">
-                <h5 style="font-family: 'Abril Fatface', serif; color:#F2A71B;">Comentario</h5>
-                <p>Very nice and helpful host (Gloria). The room was clean and the bathroom was big and has warm water.
-                    Wifi was fast. Nice view of the city from the balcony. Excellent city location, but can be a little
-                    hard to find for the taxi driver (no sign from the street). Close to the most important things in
-                    the city. A supermarket just across the road.</p>
+
+        </div>
+    </div>
+
+    <!--Tercera fila Resultado-->
+    <div id="habitaciones" class="flex-container" style="margin: 0 0 2rem 0;">
+
+        <div class="flex-container" id="tituloExperiencias">
+            <img src="./imagenes/ResultadoFinal.png" style="height: 10rem;">
+        </div>
+
+        <!--TARGETA - proyecto Ruber Hose-->
+        <div id="carruselDeImagenes2" class="flex-container">
+
+            <div id="habitacionPresentacion2">
+
+                <div id="target" class="slider">
+                    <ul id="listaDeHabitaciones" class="flex-container"
+                        style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/paredA.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/paredD.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/paredC.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                        <li
+                            style="list-style-type: none; margin: 10px; flex-basis: calc(25% - 20px); box-sizing: border-box;">
+                            <img src="./fotos/paredE.jpg" alt="imagenDeHabitacion"
+                                style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 10px;">
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div id="DescripcionDeAntes">
+                <img src="./imagenes/SlogansIconoEntrega.png" style="height: 10rem;">
+
+                <p id="descipciones">
+                    El proyecto fue entregado en el tiempo acordado, cumpliendo con todos los requisitos, ademas de
+                    aumentarle un mapa luminoso y elementos 3D sobresalientes.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--Proyectos previos-->
+    <div id="habitaciones2" class="flex-container">
+
+        <div class="image-container" style="text-align: center;" id="proyectosAnterioresDescripcion">
+            <img src="./imagenes/proyectos.png" id="proyectosAnteioresImegenDescriptiva" style="height: 10rem; margin: 1rem 0 1rem 0;">
+            <p id="textoDeUltimosProyectos" style="text-align: center; color: aliceblue;">Estos proyectos no forman parte de la
+                proyecto
+                de BROCHA, pero son representaciones de la experiencia acumulada del equipo</p>
+        </div>
+
+
+
+        <!--primera fila de carruceles-->
+        <div id="carruselDeImagenes" class="flex-container">
+
+
+
+            <!--proyecto A-->
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.4rem;">Sala/cocina de departamento en HomeLife</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoA.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoA.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoA.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoA.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
+            </div>
+            <!--proyecto B-->>
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.5rem;">Habitacion matrimonial - Lima</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoB.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoB.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoB.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoB.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
+            </div>
+            <!--proyecto C-->>
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.4rem;">Cafeteria/chocolateria en Piura</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoC.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoC.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoC.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoC.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
+            </div>
+        </div>
+
+        <!--segunda fila de carruceles-->>
+        <div id="carruselDeImagenes" class="flex-container">
+
+            <!--proyecto D-->>
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.5rem;">Centro de vacacional - Piuray</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoD.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoD.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoD.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoD.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+
+                <p id="descripcion"></p>
+                <!--iconos de servicios-->
+                <div id="servicios">
+
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
+            </div>
+            <!--proyecto E-->>
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.4rem;">Habitacion privada - SanBorja</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoE.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoE.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoE.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoE.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+
+                <p id="descripcion"></p>
+                <!--iconos de servicios-->
+                <div id="servicios">
+
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
+            </div>
+            <!--proyecto F-->>
+            <div id="habitacionPresentacion3">
+                <h3 id="descipciones" style="font-size: 1.5rem;">Clinica de Hemodialisis - Cusco</h3>
+
+                <div id="target" class="slider">
+
+                    <ul id="listaDeHabitaciones" class="flex-container">
+                        <li>
+                            <img src="./fotos/proyectoF.1.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoF.2.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoF.3.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                        <li>
+                            <img src="./fotos/proyectoF.4.jpg" alt="imagenDeHabitacion" class="imagenDeHabitacion">
+                        </li>
+                    </ul>
+                </div>
+
+                <p id="descripcion"></p>
+                <!--iconos de servicios-->
+                <div id="servicios">
+
+                </div>
+                <button id="descipciones" class="botonDeHabitacion">Ver mas</button>
             </div>
         </div>
 
 
     </div>
-
 
     <!--pie de pagina-->
     <footer>
         <div class="flex-container" id="pieDPagina">
-            <img src="./imagenes/logo.png" alt="logo" id="logo">
+            <img src="./imagenes/Logo 2.png" alt="logo" id="logo">
 
             <div class="flex-container" id="pieDPaginaContactos">
 
 
-                <p style="font-family: 'Abril Fatface', serif;">Contactos</p>
+                <p id="descipciones">Contactos</p>
 
                 <div class="flex-container" id="iconos">
-                    <img src="./imagenes/whatsapp.png" alt="wahsaap" id="logoWhasapp" style="height: 2rem;
-                    width: 2rem;">
-                    <img src="./imagenes/gmail.png" alt="wahsaap" id="logoGmail" style="height: 2rem;
-                    width: 2rem;">
-                    <img src="./imagenes/facebook.png" alt="wahsaap" id="logoLikedIn" style="height: 2rem;
+                    <a href="https://api.whatsapp.com/send?phone=946753151" style="text-decoration: none;"
+                        id="LetrasDeBuqueda">
+
+                        <img src="./imagenes/whatsapp.png" alt="wahsaap" id="logoWhasapp" style="height: 2rem;
+                        width: 2rem;">
+                    </a>
+
+
+                    <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&tf=1&to=parejaseb19@gmail.com"
+                        style="text-decoration: none;" id="LetrasDeBuqueda">
+                        <img src="./imagenes/gmail.png" alt="Gmail" id="logoGmail" style="height: 2rem; width: 2rem;">
+                    </a>
+
+                    <img src="./imagenes/facebook.png" id="logoLikedIn" style="height: 2rem;
                     width: 2rem;">
                 </div>
 
             </div>
-            <p style="font-family: 'Abril Fatface', serif;">&copy; Copyright Hospedaje Familiar Gloria 20204</p>
+            <p id="descipciones">&copy; Copyright ONG Brocha 2024</p>
         </div>
 
     </footer>
