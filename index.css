@@ -256,7 +256,7 @@ header {
 
 /*targetas de proyecto*/
 #habitaciones2 {
-    background-color: #505050;
+    background-color:#2e2e2e;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -655,6 +655,149 @@ header {
     height: 10rem;
     margin: 1rem 0 1rem 0
 }
+
+
+
+
+/***************************proceso de ayuda*************************/
+
+#ProcesoDeAyuda{
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+    padding: 2rem 20rem 2rem 20rem;
+}
+
+/*slogan de presentacion de etapa de proceso de aydua*/
+#SloganDePresentacionDeProcesoDeAyuda{
+    height: 11rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#EtapasDeAyuda{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/*Etapas del contacto*/
+#EtapasDeContacto{
+   
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    
+
+    flex: 1; /* Cada div ocupa el mismo ancho */
+
+    width: 23%;
+    padding: 1rem;
+}
+
+#EtapasDeContacto:hover {
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+
+#EtapasDeContacto>p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+
+
+/*imagenes de las etapas del proceso de contacto*/
+#ProcesoDeContactoEtapas{
+    height: 10rem;
+    width: 20rem;
+}
+
+
+
+
+
+
+/***************************como ser voluntario*************************/
+
+#quieresSerVoluntario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra horizontalmente */
+    justify-content: center;  /* Centra verticalmente */
+    padding: 1.5rem 0 0 0;
+
+   
+}
+
+
+#sloganDeSerVoluntario{
+    height: 12rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#paraSerVolunario{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+#imagenDeVoluntario{
+    height: 50rem;
+}
+
+#PreguntasFrecuentesSlogan{
+    height: 9rem;
+    margin: 0 0 2rem 0;
+}
+
+#requisitosParaVoluntario>h2,#requisitosParaVoluntario>p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+}
+
+#requisitosParaVoluntario>h2{
+    font-size: 2rem;
+}
+#requisitosParaVoluntario>p{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
