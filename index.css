@@ -1408,6 +1408,152 @@ header {
 
 
 
+
+
+
+
+
+
+/***************************proceso de ayuda*************************/
+
+#ProcesoDeAyuda{
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.3rem;
+    box-sizing: border-box;
+}
+
+/*slogan de presentacion de etapa de proceso de aydua*/
+#SloganDePresentacionDeProcesoDeAyuda{
+    height: 6rem;
+    display: block;
+    margin: 0 auto;
+
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+
+#EtapasDeAyuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Asegura que cada etapa ocupe todo el ancho disponible */
+    gap: 1rem; /* Espacio entre las etapas */
+}
+
+/*Etapas del contacto*/
+#EtapasDeContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Asegura que el contenido esté centrado */
+}
+
+
+#EtapasDeContacto>p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    color: white;
+   
+}
+
+
+/*imagenes de las etapas del proceso de contacto*/
+#ProcesoDeContactoEtapas{
+    width: 15rem;
+    height: 8rem;
+    
+}
+
+
+
+
+
+
+/***************************como ser voluntario*************************/
+
+#quieresSerVoluntario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra horizontalmente */
+    justify-content: center;  /* Centra verticalmente */
+    padding: 1.5rem 0 0 0;
+
+   
+}
+
+
+#sloganDeSerVoluntario{
+    height: 7rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#paraSerVolunario{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+#imagenDeVoluntario{
+    height: 20rem;
+}
+
+#PreguntasFrecuentesSlogan{
+    height: 6rem;
+    margin: 0 0 2rem 0;
+}
+
+#requisitosParaVoluntario{
+    width: 80%;
+    padding: 0 0 2rem 0;
+}
+
+#requisitosParaVoluntario>h2,#requisitosParaVoluntario>p{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+}
+
+#requisitosParaVoluntario>h2{
+    font-size: 1.6rem;
+}
+#requisitosParaVoluntario>p{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
     
