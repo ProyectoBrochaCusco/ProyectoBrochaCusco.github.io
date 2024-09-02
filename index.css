@@ -778,12 +778,29 @@ header {
 
 
 
+/***********************proyectos previos**************************/
 
 
 
+#listaDeHabitaciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
 
+#listaDeHabitaciones li {
+    flex: 1;
+    height: 18rem; /* Ajusta esta altura según lo necesites */
+    overflow: hidden; /* Oculta cualquier contenido que exceda la altura del contenedor */
+}
 
-
+#img1, #img2, #img3, #img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -1560,6 +1577,25 @@ header {
 
     
 
+#listaDeHabitaciones {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    list-style-type: none;
+}
+
+#listaDeHabitaciones li {
+    flex: 1;
+    height: 18rem; /* Ajusta esta altura según lo necesites */
+    overflow: hidden; /* Oculta cualquier contenido que exceda la altura del contenedor */
+}
+
+#img1, #img2, #img3, #img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
     
 
 
