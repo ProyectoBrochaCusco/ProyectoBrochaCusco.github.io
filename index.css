@@ -238,10 +238,6 @@ header {
     padding: 1rem 0 0 0;
 }
 
-
-
-
-
 #habitacionPresentacion>h3 {
     font-size: 1.9rem;
 }
@@ -262,18 +258,6 @@ header {
     background-repeat: no-repeat;
 }
 
-
-#carruselDeImagenes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    /*para que se pongan al centro*/
-    justify-content: center;
-    padding: 0 5.5rem 2rem 5.5rem;
-    overflow: hidden;
-}
-
 /*segunda forma de carrucel*/
 #carruselDeImagenes2 {
     display: flex;
@@ -281,94 +265,68 @@ header {
     align-items: center;
     text-align: center;
 
-    /*para que se pongan al centro*/
-    justify-content: center;
-}
-
-/*tercera forma de carrucel*/
-#carruselDeImagenes3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-
-    /*para que se pongan al centro*/
-    justify-content: center;
-    margin: 0 0 4rem 0;
-}
-
-#habitacionPresentacion2 {
-    margin: 0 1rem 1rem 1rem;
-    height: 40rem;
-    width: 50rem;
-    color: #bdb8b8;
-}
-
-#habitacionPresentacion22 {
-    margin: 0 1rem 1rem 1rem;
-    height: 40rem;
-    width: 100rem;
-    color: #bdb8b8;
-}
-
-#habitacionPresentacion2 {
-    margin: 0 1rem 1rem 1rem;
-    height: 40rem;
-    width: 50rem;
-    color: #bdb8b8;
-}
-
-/*tercera fila*/
-#habitacionPresentacion3 {
-    margin: 0 1rem 1rem 1rem;
-    width: 50rem;
-
-    color: #bdb8b8;
-}
-
-
-
-
-
-/*imagenes del antes*/
-#listaDeHabitaciones>li>img {
-    height: 100%;
-
-}
-
-#listaDeHabitaciones2>li>img {
     height: 30rem;
-    width: 60%;
+
+    /*para que se pongan al centro*/
+    justify-content: center;
+}
+
+/***targetas de partes del proyecto****/
+#habitacionPresentacion2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50rem;
+    margin: 0;
+    color: #bdb8b8;
 }
 
 
-#listaDeHabitaciones22>li>img {
-    height: 10rem;
-    width: 30%;
+
+
+
+
+
+
+
+
+
+
+#listaDeHabitaciones li {
+    flex-basis: calc(25% - 20px);
+    height: 100%;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#listaDeHabitaciones22>li {
-    height: 5rem;
-    width: 30%;
-}
-
-#listaDeHabitaciones3>li>img {
-    height: 5rem;
-    width: 60%;
-}
-
-#listaDeHabitaciones3>li>img {
+#listaDeHabitaciones > li > img {
     width: 100%;
-
-
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 #tituloExperiencias>img {
-    height: 10rem;
-    margin: 2rem 0 1rem 0;
+    height: 100%;
+    
 }
 
 #tituloExperiencias>p {
@@ -381,6 +339,10 @@ header {
 #DescripcionDeAntes {
     width: 30rem;
 }
+
+
+
+
 
 
 
@@ -401,10 +363,11 @@ header {
     color: #141414;
 }
 
+#habitacionPresentacion2>#target{
+    height: 100%;
+}
 
 
-
-/**/
 #habitacionPresentacion3 {
     box-shadow: 0px 8px 8px #00000059;
     border-radius: 19px;
@@ -420,12 +383,6 @@ header {
     transition: 1s;
     color: #ffffff;
 }
-
-
-
-
-
-
 
 .botonDeHabitacion {
     border: solid 2px #cfcfcf93;
@@ -453,10 +410,12 @@ header {
     margin: 0 1rem 0 1rem;
 }
 
-
+/*importante para que las imagenes del carrucel*/
+/*de imagenes*/
 #target {
     margin: 0;
     width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -465,6 +424,7 @@ header {
     display: flex;
     animation: cambio 20s infinite alternate linear;
     width: 400%;
+    height: 100%;
     padding: 0;
     overflow: hidden;
 
@@ -473,13 +433,14 @@ header {
 
 .slider li {
     width: 100%;
+    height: 100%;
     list-style: none;
 
 }
 
 .slider img {
     width: 100%;
-    height: 20rem;
+    height: 100%;
 
     padding: 0 .01rem 0 .01rem;
 }
@@ -494,6 +455,62 @@ header {
     font-size: 2rem;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+/******************partes del proceso ruber horse***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
