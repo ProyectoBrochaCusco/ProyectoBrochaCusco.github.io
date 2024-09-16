@@ -805,6 +805,8 @@ header {
     padding: 0;
     margin: 0;
     list-style-type: none;
+
+    height: 100%;
 }
 
 #listaDeHabitaciones li {
@@ -821,16 +823,46 @@ header {
 
 
 
+#carruselDeImagenes {
+    display: flex;
+    overflow-x: auto; /* Permite el desplazamiento horizontal si el contenido es más ancho que el contenedor */
+    white-space: nowrap; /* Evita el ajuste de línea para los elementos en línea */
+
+    align-items: center;  
+    justify-content: center;
+
+}
+
+#carruselDeImagenes > div {
+    flex: 0 0 auto; /* Evita que los elementos hijos se estiren o reduzcan, manteniendo su tamaño original */
+    margin-right: 20px; /* Espaciado entre elementos, ajusta según sea necesario */
+}
 
 
+#habitacionPresentacion3>#target{
+    height:73%;
+}
 
 
+#descipciones{
+    text-align: center;
+}
 
+.botonDeHabitacion{
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
 
+    
+}
 
+#habitacionPresentacion3{
+    
 
-
-
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
+}
 
 
 
