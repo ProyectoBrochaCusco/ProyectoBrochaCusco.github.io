@@ -857,12 +857,70 @@ header {
 }
 
 #habitacionPresentacion3{
-    
+    background-color: #025e7300;
 
     align-items: center;  
     justify-content: center;
     text-align: center;
 }
+
+
+/**************************** Noticias **************************/
+
+#seccionSloganNoticias{
+    text-align: center;
+}
+
+
+#SloganNoticias{
+    height: 11rem;
+    margin: 2rem;
+}
+
+
+#loUltimo{
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: center;  
+    justify-content: center;
+}
+
+#TextoDescriptivoDeloUltimo{
+    width: 30rem;
+    font-size: 1.2rem;
+
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+
+    margin: 0 3rem 0 0;
+}
+
+#iconoCelebracionDeloUltimo , #iconoVoluntariosDeloUltimo{
+    height: 5rem;
+    margin: 2rem 0 2rem 0;
+}
+
+#FotosDeLoUltimoIK_entrega{
+    width: 60rem;
+}
+
+#voluntariosDelPrimerProyecto p, h3{
+
+    padding: 0;
+    margin: 0;
+
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+
+}
+
+
+
+
+
+
 
 
 
