@@ -1249,7 +1249,7 @@ header {
 
     /*imagen de quienes somos*/
     #tituloUbicacion>img {
-        height: 5rem;
+        height: 7rem;
     }
 
     #tituloUbicacion>h3 {
@@ -1328,7 +1328,7 @@ header {
 
 
 
-    /****************************meta****************************/
+    /****************************mision****************************/
 
     #experienciasCajaGrande {
         background-color: #474747;
@@ -1350,7 +1350,7 @@ header {
     }
 
     #tituloExperiencias>img {
-        height: 8rem;
+        height: 9rem;
         padding: 1rem 0 0 0;
     }
 
@@ -1374,7 +1374,7 @@ header {
 
 
     #FotoPersonaExperiencia {
-        height: 16rem;
+        height: 20rem;
         display: block;
         display: flex;
         align-items: center;
@@ -1437,6 +1437,7 @@ header {
     #tituloExperiencias>img{
         margin: 0 !important;
         padding: 1rem 0 0 0 !important;
+        height: 7rem !important;
     }
 
     #tituloExperiencias>p{
@@ -1471,6 +1472,8 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        width: 100% !important;
     }
 
     #DescripcionDeAntes>img{
@@ -1482,6 +1485,15 @@ header {
         width: 70% !important;
         margin: 0 !important;
     }
+
+
+
+    #descipciones{
+        margin: 0 0 3rem 0 !important;
+    }
+
+
+
 
 
 
@@ -1714,15 +1726,46 @@ header {
 
 
 
+/*******************************noticias******************************/
 
 
 
+#SloganNoticias{
+    height: 9rem;
+    margin: 1rem;
+}
 
 
+#loUltimo{
+    display: flex;
+    flex-direction: column;
 
+    text-align: center;
+    align-items: center;  
+    justify-content: center;
+}
 
+#TextoDescriptivoDeloUltimo{
+    width: 100%;
+    font-size: 1.1rem;
 
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
 
+    margin: 0;
+    padding: 0 3rem 0 3rem;
+
+}
+
+#iconoCelebracionDeloUltimo , #iconoVoluntariosDeloUltimo{
+    height: 5rem;
+    margin: 2rem 0 2rem 0;
+}
+
+#FotosDeLoUltimoIK_entrega{
+    margin: 2rem 0 0 0;
+    width: 90%;
+}
 
 
 
